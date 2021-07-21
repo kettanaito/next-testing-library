@@ -1,7 +1,7 @@
 {
   "name": "next-testing-library",
   "description": "Utilities for testing NextJS applications.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "git@github.com:kettanaito/next-testing-library.git",
