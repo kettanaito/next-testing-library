@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

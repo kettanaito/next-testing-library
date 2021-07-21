@@ -1,0 +1,38 @@
+{
+  "name": "next-testing-library",
+  "description": "Utilities for testing NextJS applications.",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "git@github.com:kettanaito/next-testing-library.git",
+  "author": "Artem Zakharchenko <kettanaito@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "clean": "rimraf ./lib",
+    "build": "tsc",
+    "prepublishOnly": "yarn clean && yarn build"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "next": ">=11.0.0",
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "node-mocks-http": "^1.10.1"
+  }
+}
